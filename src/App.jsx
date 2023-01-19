@@ -41,6 +41,9 @@ const App = () => {
 
     useEffect(() => {
         getVideo();
+        setTimeout(() => {
+            document.getElementById("video").style.display = "block";
+        }, 1500);
     }, []);
 
     return (
