@@ -12,9 +12,10 @@ video {
     transform: scale(0.7);
     max-width: 100%;
     height: auto;
-    border: 1px solid #fff;
 }
 
 @media only screen and (min-width: 390px) and (max-width: 690px) {
-
+    video {
+        top: 30vh;
+    }
 }

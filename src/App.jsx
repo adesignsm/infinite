@@ -33,7 +33,7 @@ const App = () => {
 
     const RenderVideo = () => {
         return (
-            <video id = "video" controls loop>
+            <video id = "video" controls loop controlsList="nodownload">
                 <source src={videoData} type="video/mp4" />
             </video>
         )
