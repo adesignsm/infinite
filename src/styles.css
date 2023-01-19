@@ -7,5 +7,10 @@ body, html {
 
 video {
   display: none;
+  position: absolute;
+  top: 0;
   transform: scale(0.7);
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #fff;
 }/*# sourceMappingURL=styles.css.map */
