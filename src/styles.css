@@ -1,0 +1,10 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  overflow: hidden;
+}
+
+video {
+  transform: scale(0.7);
+}/*# sourceMappingURL=styles.css.map */
