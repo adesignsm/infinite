@@ -21,7 +21,7 @@ const App = () => {
     const [videoData, setVideoData] = useState("");
 
     const getVideo = () => {
-        const storageRef = ref(storage, "gs://infinite-8feab.appspot.com/i(n)finite_jan18_v2_2023 (1080p).mp4");
+        const storageRef = ref(storage, "gs://infinite-8feab.appspot.com/i(n)finite_prores_master_jan25.mov (1080p).mp4");
         getDownloadURL(ref(storage, storageRef)).then((url) => {
             const convertedUrl = url;
             setVideoData(convertedUrl);
